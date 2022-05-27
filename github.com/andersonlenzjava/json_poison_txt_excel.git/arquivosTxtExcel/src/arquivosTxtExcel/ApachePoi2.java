@@ -19,7 +19,7 @@ public class ApachePoi2 {
 	public static void main(String[] args) throws Exception {
 
 		FileInputStream entrada = new FileInputStream(
-				new File("C:\\workspace-curso-java\\arquivosTxtExcel\\src\\arquivosTxtExcel\\arquivo_excel.xls"));
+				new File("C:\\Users\\ander\\git\\repository12\\github.com\\andersonlenzjava\\json_poison_txt_excel.git\\arquivosTxtExcel\\src\\arquivosTxtExcel\\arquivo_excel.xls"));
 
 		HSSFWorkbook hssfWorkbook = new HSSFWorkbook(entrada);// prepara a entrada do arquivo excel para ler
 		HSSFSheet planilha = hssfWorkbook.getSheetAt(0);// pega a primeira planilha do nosso arquivo excel

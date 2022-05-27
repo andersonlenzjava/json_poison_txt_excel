@@ -16,7 +16,7 @@ import com.google.gson.JsonParser;
 
 public class EscrevJSON {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws Exception {
 
 		Usuario usuario1 = new Usuario();
 		usuario1.setNome("Anderson");
@@ -44,7 +44,7 @@ public class EscrevJSON {
 		System.out.println(jsonUser);// passa a lista de dados via este objeto json
 
 		FileWriter fileWriter = new FileWriter(// escreve no arquivo
-				"C:\\workspace-curso-java\\arquivosTxtExcel\\src\\arquivosTxtExcel\\filejson.json");
+				"C:\\Users\\ander\\git\\repository12\\github.com\\andersonlenzjava\\json_poison_txt_excel.git\\arquivosTxtExcel\\src\\arquivosTxtExcel\\filejson.json");
 
 		fileWriter.write(jsonUser);// escreve no arquivo
 		fileWriter.flush();
@@ -53,7 +53,7 @@ public class EscrevJSON {
 //------------------------------------LENDO O ARQUIVO JSON-------------------------------//
 
 		FileReader fileReader = new FileReader(
-				"C:\\workspace-curso-java\\arquivosTxtExcel\\src\\arquivosTxtExcel\\filejson.json");
+				"C:\\Users\\ander\\git\\repository12\\github.com\\andersonlenzjava\\json_poison_txt_excel.git\\arquivosTxtExcel\\src\\arquivosTxtExcel\\filejson.json");
 
 		// transfere o arquivo json para o array jason
 		JsonArray jsArray = (JsonArray) JsonParser.parseReader(fileReader);

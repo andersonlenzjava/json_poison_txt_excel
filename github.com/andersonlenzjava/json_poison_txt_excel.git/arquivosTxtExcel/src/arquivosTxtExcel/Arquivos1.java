@@ -34,7 +34,7 @@ public class Arquivos1 {
 		pessoas.add(pessoa3);
 		
 		//clase file para trabalhar com arquivos com o objeto arquivo, cria o objeto
-		File arquivo = new File("C:\\workspace-curso-java\\arquivosTxtExcel\\src\\arquivosTxtExcel\\arquivo.txt");
+		File arquivo = new File("C:\\Users\\ander\\git\\repository12\\github.com\\andersonlenzjava\\json_poison_txt_excel.git\\arquivosTxtExcel\\src\\arquivosTxtExcel\\arquivo.txt");
 		
 		if(!arquivo.exists()) {//se o arquivo não existir, pq tem a negação 
 			arquivo.createNewFile();

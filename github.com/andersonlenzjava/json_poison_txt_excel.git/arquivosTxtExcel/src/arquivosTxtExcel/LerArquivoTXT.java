@@ -15,7 +15,7 @@ public class LerArquivoTXT {
 		// *é possivel editar o arquivo aqui dentro
 		// entrada de dados apontada para o objeto
 		FileInputStream entradaArquivo = new FileInputStream(
-				new File("C:\\workspace-curso-java\\arquivosTxtExcel\\src\\arquivosTxtExcel\\arquivo.txt"));
+				new File("C:\\Users\\ander\\git\\repository12\\github.com\\andersonlenzjava\\json_poison_txt_excel.git\\arquivosTxtExcel\\src\\arquivosTxtExcel\\arquivo.txt"));
 
 		Scanner lerArquivo = new Scanner(entradaArquivo, "UTF-8");// o arquivo para ler e o sinal para codificar, envia
 																	// para a variavel os dados

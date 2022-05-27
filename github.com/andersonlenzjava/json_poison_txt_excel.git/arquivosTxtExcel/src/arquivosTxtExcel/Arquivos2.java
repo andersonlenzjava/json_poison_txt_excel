@@ -12,7 +12,7 @@ public class Arquivos2 {
 	
 	//gerador de arquivo csv
 	
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws Exception {
 		
 		Pessoa pessoa1 = new Pessoa();
 		pessoa1.setIdade(50);
@@ -36,7 +36,7 @@ public class Arquivos2 {
 		pessoas.add(pessoa3);
 		
 		//clase file para trabalhar com arquivos com o objeto arquivo, cria o objeto
-		File arquivo = new File("C:\\workspace-curso-java\\arquivosTxtExcel\\src\\arquivosTxtExcel\\arquivo.csv");
+		File arquivo = new File("C:\\Users\\ander\\git\\repository12\\github.com\\andersonlenzjava\\json_poison_txt_excel.git\\arquivosTxtExcel\\src\\arquivosTxtExcel\\arquivo2.csv");
 		
 		if(!arquivo.exists()) {//se o arquivo não existir, pq tem a negação 
 			arquivo.createNewFile();
